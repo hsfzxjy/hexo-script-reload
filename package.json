@@ -1,8 +1,8 @@
 {
-  "name": "vanilla-typescript-sass-template",
+  "name": "hexo-script-reload",
   "version": "1.0.0",
-  "description": "A repository template for simple projects powered by vanilla TypeScript and Sass.",
-  "main": "index.js",
+  "description": "",
+  "main": "dist/node.index.js",
   "scripts": {
     "prepare": "husky install",
     "typesync": "typesync",
@@ -12,10 +12,10 @@
     "clean": "gulp clean",
     "lint": "tsc --noEmit && eslint . --ext .ts",
     "fix": "eslint . --ext .ts --fix",
-    "format": "prettier --config .prettierrc '**/*.ts' '**/*.scss' --write"
+    "format": "prettier --config .prettierrc '**/*.ts' --write"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/gulp": "^4.0.10",
     "@types/gulp-sass": "^5.0.0",

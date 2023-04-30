@@ -1,2 +1,3 @@
-# vanilla-typescript-sass-template
-A repository template for simple projects powered by vanilla TypeScript and Sass.
+# hexo-script-reload
+
+A plugin to automatically rerender posts when script files are modified.

@@ -1,7 +1,8 @@
 {
   "name": "hexo-script-reload",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
+  "repository": {"type": "git", "url": "https://github.com/hsfzxjy/hexo-script-reload.git"},
   "main": "dist/node.index.js",
   "scripts": {
     "prepare": "husky install",
